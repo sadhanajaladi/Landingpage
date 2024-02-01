@@ -1,0 +1,199 @@
+*
+{
+    margin: 0px ;
+}
+nav
+{
+    background:transparent;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+}
+label.portfolio
+{
+    color:black;
+    font-size: 35px;
+    line-height:60px;
+    padding: 0 40px;
+    font-family: monospace;
+    font-weight: bold;
+}
+nav ul
+{
+    float: right;
+    margin-right: 40px;
+    
+}
+
+
+nav ul li
+{   
+    display: inline-block;
+    line-height: 70px;
+    margin:0 10px;
+    
+} 
+nav ul li a
+{
+    color:black;
+    font-size: 25px;
+    font-family: monospace;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+   
+    
+}
+.menu a{
+    text-decoration:none;
+    color:black;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 2px;
+    padding: 5px 20px;
+    background-color:transparent;
+
+}
+.menu a:hover{
+    letter-spacing: 3px;
+    transition: 0.6s;
+    
+}
+#image
+{background-color: aqua;
+    width: 1510px;
+    height: 730px;
+   background-image: url('hann.jpg'); 
+   background-size:cover; 
+   background-position: center;
+   justify-content: center;
+}
+
+.heading
+{
+    width: 30%;
+    text-align: center;
+    color:white;
+    padding: 150px 50px;
+  
+}
+.heading h1
+{
+    font-size: 40px;
+}
+.heading p{
+    font-size: 40px;
+}
+.heading a{
+    text-decoration:none;
+    color:white;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 45px;
+    padding: 14px 50px;
+    background-color:black;
+
+}
+.heading a:hover{
+    letter-spacing: 3px;
+    transition: 0.6s;
+    
+}
+#id1
+{
+height: 200px;
+width: 200px;
+background-color: black;
+margin-top: -1px;
+margin-left: 15px;
+}
+#id1:hover img{
+    transform: scale(1.2);
+    border-radius: 2px;
+    transition: 0.6s;
+}
+#id2
+{height: 200px;
+width: 200px;
+background-color: blueviolet;
+margin-top: -200px;
+margin-left: 228px;
+display: flex;
+
+}
+#id2:hover img{
+    transform: scale(1.2);
+    border-radius: 2px;
+    transition: 0.6s;
+}
+#id3
+{height: 200px;
+width: 200px;
+background-color: red;
+margin-top: -197px;
+position: absolute;
+margin-left: 438px;
+
+}
+#id3:hover img{
+    transform: scale(1.2);
+    border-radius: 2px;
+   transition: 0.6s;
+}
+#id4
+{height: 195px;
+    width: 200px;
+    background-color: rgb(65, 171, 68);
+    margin-top: -195px;
+    position: absolute;
+    margin-left: 655px;
+}
+#id4:hover img{
+    transform: scale(1.2);
+    border-radius: 2px;
+    transition: 0.6s;
+}
+#id5
+{
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    margin-top: -199px;
+    position: absolute;
+    margin-left: 860px;
+}
+#id5:hover img{
+    transform: scale(1.2);
+    border-radius: 2px;
+    transition: 0.6s;
+}
+#id6
+{
+    height: 195px;
+    width: 185px;
+    background-color: rgb(185, 37, 143);
+    margin-top: -195px;
+    position: absolute;
+    margin-left: 1070px;
+}
+#id6:hover img{
+    transform: scale(1.2);
+    border-radius: 2px;
+    transition: 0.6s;
+}
+
+
+#id7
+{
+    height: 190px;
+    width: 180px;
+    background-color: rgb(36, 25, 190);
+    margin-top: -190px;
+    position: absolute;
+    margin-left: 1288px;
+}
+#id7:hover img{
+    transform: scale(1.2);
+    border-radius: 2px;
+    transition: 0.6s;
+}
